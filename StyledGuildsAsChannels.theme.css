@@ -1,0 +1,112 @@
+/**
+ * @name StyledGuildsAsChannels
+ * @author PINPAL#5245
+ * @version 1.0.0
+ * @description Custom Styles for DisplayServersAsChannels Plugin by DevilBro
+ * @website https://pinpal.github.io
+*/
+
+:root {
+    --accent: 67, 181, 129;
+	--text-color: 249, 249, 249;
+	--background-light: 49, 50, 53;
+	--background-color: #16171a;
+}
+
+/* extra top padding & background */
+.styledGuildsAsChannels-DNHtg_ .da-guilds .da-scroller {
+    padding-top: 8px;
+	background-color: var(--background-color) !important;
+}
+
+/* Uniform Width */
+.styledGuildsAsChannels-DNHtg_ .da-wrapper .da-listItem {
+  width: 220px !important;
+}
+
+/* Folder Background */
+.styledGuildsAsChannels-DNHtg_ .da-wrapper .da-expandedFolderBackground {
+  width: 220px !important;
+  left: 8px !important;
+  background-color: rgba(var(--background-light),1) !important;
+}
+.styledGuildsAsChannels-DNHtg_ .da-wrapper .da-expandedFolderBackground.da-collapsed {
+  background-color: rgba(var(--background-light),0.45) !important;
+}
+
+/* Servers not in folders */
+.styledGuildsAsChannels-DNHtg_ .da-childWrapper {
+  background-color: rgba(var(--background-light),0.45) !important;
+  color: rgba(var(--text-color),0.65) !important;
+  border-radius: 0 !important;
+}
+
+/* Folder Server Lists */
+.styledGuildsAsChannels-DNHtg_ [aria-label="Servers"] .da-wrapper .da-listItem .da-childWrapper {
+  background-color: transparent !important;
+}
+.styledGuildsAsChannels-DNHtg_ [aria-label="Servers"] .da-wrapper .da-listItem .da-folder[aria-expanded="true"] .da-childWrapper {
+  background-color: rgba(var(--text-color), 0.1) !important;
+  color: rgba(var(--text-color),1) !important;
+}
+
+/* Selected Servers (in & outside folders) */
+.styledGuildsAsChannels-DNHtg_ .da-wrapper.da-selected .da-childWrapper ,
+.styledGuildsAsChannels-DNHtg_ [aria-label="Servers"] .da-wrapper .da-listItem .da-wrapper.da-selected .da-childWrapper { 
+  background-color: rgba(var(--accent),1) !important;
+  color: rgba(var(--text-color),1) !important;
+}
+
+/* smaller custom folder icons */
+.styledGuildsAsChannels-DNHtg_ .betterFolders-customIcon {
+  background-size: 30px;
+}
+/* hide original folder icons */
+.styledGuildsAsChannels-DNHtg_ .da-wrapper .icon-GhnIRB {
+  display: none;
+}
+.styledGuildsAsChannels-DNHtg_ .da-folder, .da-folderIconWrapper {
+  background-color: transparent !important;
+  margin-right: -8px;
+}
+
+/* hide giant discord logo on "Home" button */
+.styledGuildsAsChannels-DNHtg_ .da-wrapper .da-childWrapper .da-homeIcon {
+  display: none !important;
+}
+
+/* "Add a Server" & "Explore Public Servers" buttons */
+.styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton {
+  background-color: rgba(var(--background-light),0.45) !important;
+  position: fixed;
+  left: 8px;
+  border-radius: 4px !important;
+  padding: 8px !important;
+  height: 32px !important;
+}
+.styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton * {
+  color: rgba(var(--text-color), 0.65) !important;
+}
+.styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton svg {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12px;
+}
+.styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton .da-childWrapper {
+  border: none !important;
+  background: transparent !important;
+}
+.styledGuildsAsChannels-DNHtg_ .da-circleIconButton[aria-label="Add a Server"] {
+  bottom: 8px;
+}
+.styledGuildsAsChannels-DNHtg_ .da-circleIconButton[aria-label="Explore Public Servers"] {
+  bottom: 45px;
+}
+/* hover & selected effects */
+.styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton.da-selected {
+  background-color: rgba(var(--accent), 1) !important;
+}
+.styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton.da-selected .da-childWrapper * {
+  color: rgba(var(--text-color), 1) !important;
+}
