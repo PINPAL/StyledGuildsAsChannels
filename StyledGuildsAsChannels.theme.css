@@ -7,7 +7,7 @@
 */
 
 :root {
-  --accent: 49, 186, 84;
+  --accent: 59, 165, 92;
   --text-color: 249, 249, 249;
   --background-light: 49, 50, 53;
   --background-color: #16171a;
@@ -34,6 +34,9 @@
   width: 220px !important;
   left: 8px !important;
   background-color: rgba(var(--background-light), 1) !important;
+  border-top-style: solid;
+  border-top-width: 38px;
+  border-top-color: rgba(var(--text-color), 0.1);
 }
 .styledGuildsAsChannels-DNHtg_
   .da-wrapper
@@ -42,6 +45,7 @@
   .wrapper-3Njo_c
   .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
   background-color: rgba(var(--background-light), 0.45) !important;
+  border-top-style: none;
 }
 
 /* Servers not in folders */
@@ -109,7 +113,7 @@
 }
 /* hide original folder icons */
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-wrapper .icon-GhnIRB,
-.styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .wrapper-sa6paO .icon-GhnIRB {
+.styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .wrapper-3Njo_c .icon-GhnIRB {
   display: none;
 }
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-folder,
