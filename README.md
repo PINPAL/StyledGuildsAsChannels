@@ -17,7 +17,7 @@ It is recommended that you setup custom folder icons using the above recommended
 3. Open the "Themes" Panel.
 4. Click "Open Themes Folder".
 5. Drop the [StyledGuildsAsChannels.theme.css](https://github.com/PINPAL/StyledGuildsAsChannels/releases/latest/download/StyledGuildsAsChannels.theme.css) from the releases of this repo into the folder.
-6. Ensure the theme is enabled from the "Themes" panel in Discord.
+6. Ensure the theme is enabled from the "Themes" panel in Discord Settings.
 
 ### Customisation
 ```css
