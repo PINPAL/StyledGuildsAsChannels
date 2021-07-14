@@ -4,7 +4,7 @@ Stylesheet for Display Servers As Channels for BetterDiscord
 
 
 ### Requirements
-- [BetterDiscord](https://betterdiscord.net/)
+- [BetterDiscord](https://betterdiscord.app/)
 - [Display Servers as Channels](https://betterdiscordlibrary.com/plugins/Display%20Servers%20As%20Channels)
 
 ### Recommended
