@@ -10,6 +10,7 @@
   --accent: 59, 165, 92;
   --text-color: 249, 249, 249;
   --background-light: 49, 50, 53;
+  --background-dark: 34, 35, 38;
   --background-color: #16171a;
 }
 
@@ -33,9 +34,9 @@
   .expandedFolderBackground-1cujaW {
   width: 220px !important;
   left: 8px !important;
-  background-color: rgba(var(--background-light), 1) !important;
+  background-color: rgb(var(--background-light)) !important;
   border-top-style: solid;
-  border-top-width: 38px;
+  border-top-width: 36px;
   border-top-color: rgba(var(--text-color), 0.1);
 }
 .styledGuildsAsChannels-DNHtg_
@@ -44,14 +45,14 @@
 .styledGuildsAsChannels-DNHtg_
   .wrapper-3Njo_c
   .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
-  background-color: rgba(var(--background-light), 0.45) !important;
+  background-color: rgb(var(--background-dark)) !important;
   border-top-style: none;
 }
 
 /* Servers not in folders */
 .styledGuildsAsChannels-DNHtg_ .da-childWrapper,
 .styledGuildsAsChannels-DNHtg_ .childWrapper-anI2G9 {
-  background: rgba(var(--background-light), 0.45) !important;
+  background: rgba(var(--background-dark)) !important;
   color: rgba(var(--text-color), 0.65) !important;
   border-radius: 0 !important;
 }
@@ -66,7 +67,8 @@
   [aria-label="Servers"]
   .wrapper-3Njo_c
   .listItem-GuPuDH
-  .childWrapper-anI2G9 {
+  .childWrapper-anI2G9,
+  .styledGuildsAsChannels-DNHtg_ .folder-1hbNCn {
   background-color: transparent !important;
 }
 .styledGuildsAsChannels-DNHtg_
@@ -136,7 +138,7 @@
 /* "Add a Server" & "Explore Public Servers" buttons */
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton,
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .circleButtonBase-2DCxIZ {
-  background-color: rgba(var(--background-light), 0.45) !important;
+  background-color: rgba(var(--background-dark)) !important;
   border-radius: 4px !important;
   padding: 8px !important;
   height: 32px !important;
