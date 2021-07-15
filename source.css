@@ -32,6 +32,15 @@
   background-color: rgb(var(--sgac-background-dark)) !important;
   border-top-style: none;
 }
+/* Folder background hover effect */
+.styledGuildsAsChannels-DNHtg_
+  .da-wrapper:hover
+  .da-expandedFolderBackground.da-collapsed,
+.styledGuildsAsChannels-DNHtg_
+  .wrapper-3Njo_c:hover
+  .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
+  background-color: rgb(var(--sgac-background-light)) !important;
+}
 
 /* Servers not in folders */
 .styledGuildsAsChannels-DNHtg_ .da-childWrapper,
