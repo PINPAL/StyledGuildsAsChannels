@@ -1,3 +1,12 @@
+/* customisable variables */
+:root {
+  --sgac-accent: 59, 165, 92;
+  --sgac-text-color: 249, 249, 249;
+  --sgac-background-light: 49, 50, 53;
+  --sgac-background-dark: 34, 35, 38;
+  --sgac-background-color: #16171a;
+}
+
 /* extra top padding & background */
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-scroller,
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .scrollerBase-289Jih {
@@ -18,7 +27,7 @@
   .expandedFolderBackground-1cujaW {
   width: 220px !important;
   left: 8px !important;
-  background-color: rgb(var(--sgac-background-light)) !important;
+  background-color: rgba(var(--sgac-background-light), 1) !important;
   border-top-style: solid;
   border-top-width: 36px;
   border-top-color: rgba(var(--sgac-text-color), 0.1);
@@ -29,14 +38,14 @@
 .styledGuildsAsChannels-DNHtg_
   .wrapper-3Njo_c
   .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
-  background-color: rgb(var(--sgac-background-dark)) !important;
+  background-color: rgba(var(--sgac-background-dark), 1) !important;
   border-top-style: none;
 }
 
 /* Servers not in folders */
 .styledGuildsAsChannels-DNHtg_ .da-childWrapper,
 .styledGuildsAsChannels-DNHtg_ .childWrapper-anI2G9 {
-  background: rgba(var(--sgac-background-dark)) !important;
+  background: rgba(var(--sgac-background-dark), 1) !important;
   color: rgba(var(--sgac-text-color), 0.65) !important;
   border-radius: 0 !important;
 }
