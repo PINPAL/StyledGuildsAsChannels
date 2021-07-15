@@ -42,15 +42,23 @@
   background-color: rgb(var(--sgac-background-light)) !important;
 }
 
-/* Servers not in folders */
-.styledGuildsAsChannels-DNHtg_ .da-childWrapper,
-.styledGuildsAsChannels-DNHtg_ .childWrapper-anI2G9 {
-  background: rgb(var(--sgac-background-dark)) !important;
-  color: rgba(var(--sgac-text-color), 0.65) !important;
+/* Servers NOT in folders */
+.styledGuildsAsChannels-DNHtg_
+  div[aria-label="Servers"]
+  > .da-listItem
+  .da-childWrapper,
+.styledGuildsAsChannels-DNHtg_
+  div[aria-label="Servers"]
+  > .listItem-GuPuDH
+  .childWrapper-anI2G9 {
+  padding-left: 12px !important;
+  flex-direction: row-reverse;
+  background: rgb(var(--sgac-background-dark));
+  color: rgba(var(--sgac-text-color), 0.65);
   border-radius: 0 !important;
 }
 
-/* Folder Server Lists */
+/* Servers that ARE in folders */
 .styledGuildsAsChannels-DNHtg_
   [aria-label="Servers"]
   .da-wrapper
@@ -146,7 +154,7 @@
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  right: 12px;
+  right: 14px;
 }
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton .da-childWrapper,
 .styledGuildsAsChannels-DNHtg_

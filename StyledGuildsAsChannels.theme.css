@@ -1,7 +1,7 @@
 /**
  * @name StyledGuildsAsChannels
  * @author PINPAL
- * @version 2.0.3
+ * @version 2.1.0
  * @description Custom Styles for DisplayServersAsChannels Plugin by DevilBro
  * @website https://pinpal.github.io
  * @source https://github.com/PINPAL/StyledGuildsAsChannels
@@ -15,7 +15,7 @@
 :root {
   --sgac-accent: 88, 101, 242;
   --sgac-text-color: 249, 249, 249;
-  --sgac-background-light: 47, 49, 54;
+  --sgac-background-light: 57, 59, 64;
   --sgac-background-dark: 41, 43, 47;
   --sgac-background-color: #16171a;
 }
