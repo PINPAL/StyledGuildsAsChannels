@@ -1,4 +1,8 @@
-/* customisable variables */
+/* 
+customisable variables
+----------------------
+/*
+
 :root {
   --sgac-accent: 59, 165, 92;
   --sgac-text-color: 249, 249, 249;
@@ -6,6 +10,7 @@
   --sgac-background-dark: 34, 35, 38;
   --sgac-background-color: #16171a;
 }
+*/
 
 /* extra top padding & background */
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-scroller,
