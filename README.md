@@ -22,10 +22,10 @@ It is recommended that you setup custom folder icons using the above recommended
 ### Customisation
 ```css
 :root {
-	--accent: 		  		67, 181, 129; 	 	/* controls color of accent color */
-	--text-color: 			249, 249, 249; 	/* controls color of text */
-	--background-light: 	49, 50, 53; 		/* controls color of expanded folders */
-	--background-dark: 	34, 35, 38; 		/* controls color of servers and folders */
-	--background-color: 	#16171a; 			/* controls color of main background behind the server list */
+	--sgac-accent:				67, 181, 129;		/* controls color of accent color */
+	--sgac-text-color:			249, 249, 249;		/* controls color of text */
+	--sgac-background-light:	49, 50, 53;			/* controls color of expanded folders */
+	--sgac-background-dark:		34, 35, 38;			/* controls color of servers and folders */
+	--sgac-background-color:	#16171a;			/* controls color of main background behind the server list */
 }
 ```
