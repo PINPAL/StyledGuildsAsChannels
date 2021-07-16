@@ -42,6 +42,12 @@
   background-color: rgb(var(--sgac-background-light)) !important;
 }
 
+/* Notification Badge */
+.styledGuildsAsChannels-DNHtg_ .da-childWrapper .da-numberBadge,
+.styledGuildsAsChannels-DNHtg_ .childWrapper-anI2G9 .numberBadge-2s8kKX {
+  background-color: rgba(var(--sgac-text-color), 0.2) !important;
+}
+
 /* Servers that ARE in folders */
 .styledGuildsAsChannels-DNHtg_
   [aria-label="Servers"]
