@@ -5,13 +5,13 @@
   background-color: var(--sgac-background-color) !important;
 }
 
-/* Uniform Width */
+/* Uniform idth */
 .styledGuildsAsChannels-DNHtg_ .da-wrapper .da-listItem,
 .styledGuildsAsChannels-DNHtg_ .wrapper-3Njo_c .listItem-GuPuDH {
   width: 220px !important;
 }
 
-/* Folder Background */
+/* Folder background */
 .styledGuildsAsChannels-DNHtg_ .da-wrapper .da-expandedFolderBackground,
 .styledGuildsAsChannels-DNHtg_
   .wrapper-3Njo_c
@@ -42,7 +42,7 @@
   background-color: rgb(var(--sgac-background-light)) !important;
 }
 
-/* Notification Badge */
+/* Notification badges */
 .styledGuildsAsChannels-DNHtg_ .da-childWrapper .da-numberBadge,
 .styledGuildsAsChannels-DNHtg_ .childWrapper-anI2G9 .numberBadge-2s8kKX {
   background-color: rgba(var(--sgac-text-color), 0.2) !important;
@@ -94,7 +94,7 @@
   border-radius: 0 !important;
 }
 
-/* Selected Servers (in & outside folders) */
+/* Selected servers (in & outside folders) */
 .styledGuildsAsChannels-DNHtg_ .da-wrapper.da-selected .da-childWrapper,
 .styledGuildsAsChannels-DNHtg_
   [aria-label="Servers"]
@@ -115,12 +115,12 @@
   color: rgb(var(--sgac-text-color)) !important;
 }
 
-/* smaller custom folder icons */
+/* Smaller custom folder icons */
 .styledGuildsAsChannels-DNHtg_ .betterFolders-customIcon,
 .styledGuildsAsChannels-DNHtg_ .betterFolders-customIcon {
   background-size: 36px;
 }
-/* hide original folder icons */
+/* Hide original folder icons */
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-wrapper .icon-GhnIRB,
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .wrapper-3Njo_c .icon-GhnIRB {
   display: none;
@@ -133,7 +133,7 @@
   margin-right: -8px;
 }
 
-/* hide giant discord logo on "Home" button */
+/* Hide giant discord logo on "Home" button */
 .styledGuildsAsChannels-DNHtg_ .da-wrapper .da-childWrapper .da-homeIcon,
 .styledGuildsAsChannels-DNHtg_
   .wrapper-1BJsBx
@@ -170,7 +170,7 @@
   border: none !important;
   background: transparent !important;
 }
-/* hover & selected effects */
+/* Hover & selected effects */
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton.da-selected,
 .styledGuildsAsChannels-DNHtg_
   .guilds-1SWlCJ
