@@ -189,3 +189,42 @@
   * {
   color: rgb(var(--sgac-text-color)) !important;
 }
+
+/* SHOW error message if plugin NOT detected */
+.da-guilds,
+.guilds-1SWlCJ {
+  overflow: visible;
+}
+.da-guilds::before,
+.guilds-1SWlCJ::before {
+  background-image: url("https://github.com/PINPAL/StyledGuildsAsChannels/blob/main/images/warning.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: 16px 12px;
+  box-shadow: inset 0 calc(16px + 2rem) 0px 0px rgba(0, 0, 0, 0.25),
+    5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+  display: block;
+  white-space: pre-wrap;
+  text-align: center;
+  background-color: rgb(240, 71, 71);
+  border-radius: 6px;
+  margin: 8px;
+  margin-bottom: 16px;
+  padding: 16px 8px;
+  padding-top: -60px;
+  font-weight: 500;
+  color: white;
+  content: "Error!\a\a\a DisplayServersAsChannels is not installed or enabled.";
+  z-index: 9999;
+  width: 220px;
+  height: fit-content;
+}
+/* HIDE error message if plugin IS detected */
+.styledGuildsAsChannels-DNHtg_ .da-guilds,
+.styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ {
+  overflow: hidden;
+}
+.styledGuildsAsChannels-DNHtg_ .da-guilds::before,
+.styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ::before {
+  display: none !important;
+}
