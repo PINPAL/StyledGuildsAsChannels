@@ -27,10 +27,10 @@ Stylesheet for Display Servers As Channels for BetterDiscord
 <!-- prettier-ignore -->
 ```css
 :root {
-  --sgac-accent: 		88, 101, 242;	/* controls color of accent color */
-  --sgac-text-color: 		249, 249, 249;	/* controls color of text */
-  --sgac-background-light: 	57, 59, 64;	/* controls color of expanded folders */
-  --sgac-background-dark: 	41, 43, 47;	/* controls color of servers and folders */
-  --sgac-background-color: 	#16171a;	/* controls color of main background behind the server list */
+  --sgac-accent: 		88, 101, 242;	/* selected servers */
+  --sgac-text-color: 		249, 249, 249;	/* primary text color */
+  --sgac-background-light: 	57, 59, 64;	/* expanded folder background */
+  --sgac-background-dark: 	41, 43, 47;	/* servers & folder background */
+  --sgac-background-color: 	#16171a;	/* background of entire server list panel*/
 }
 ```
