@@ -1,7 +1,7 @@
 # StyledGuildsAsChannels
 
 Stylesheet for Display Servers As Channels for BetterDiscord
-![PreviewImage](https://github.com/PINPAL/StyledGuildsAsChannels/blob/main/images/Preview.png?raw=true)
+![PreviewImage](https://github.com/PINPAL/StyledGuildsAsChannels/blob/main/images/preview.png?raw=true)
 
 ### Requirements
 
