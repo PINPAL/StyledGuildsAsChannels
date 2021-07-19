@@ -61,6 +61,7 @@
   .childWrapper-anI2G9,
 .styledGuildsAsChannels-DNHtg_ .folder-1hbNCn {
   background-color: transparent !important;
+  background: transparent !important;
 }
 .styledGuildsAsChannels-DNHtg_
   [aria-label="Servers"]
@@ -130,6 +131,7 @@
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .da-folder,
 .folderIconWrapper-1_bOZe {
   background-color: transparent !important;
+  background: transparent !important;
   margin-right: -8px;
 }
 
@@ -169,6 +171,7 @@
   .childWrapper-anI2G9 {
   border: none !important;
   background: transparent !important;
+  background-color: transparent !important;
 }
 /* Hover & selected effects */
 .styledGuildsAsChannels-DNHtg_ .da-guilds .da-circleIconButton.da-selected,
