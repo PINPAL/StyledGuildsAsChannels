@@ -59,7 +59,9 @@
   .wrapper-3Njo_c
   .listItem-GuPuDH
   .childWrapper-anI2G9,
-.styledGuildsAsChannels-DNHtg_ .folder-1hbNCn {
+.styledGuildsAsChannels-DNHtg_ .folder-1hbNCn,
+.styledGuildsAsChannels-DNHtg_ .wrapper-3NnKdC .listItem-GuPuDH .wrapper-1BJsBx,
+.styledGuildsAsChannels-DNHtg_ .da-wrapper .da-listItem .da-wrapper {
   background-color: transparent !important;
   background: transparent !important;
 }
@@ -90,7 +92,7 @@
   .childWrapper-anI2G9 {
   padding-left: 12px !important;
   flex-direction: row-reverse !important;
-  background: rgb(var(--sgac-background-dark));
+  background: rgb(var(--sgac-background-dark)) !important;
   color: rgba(var(--sgac-text-color), 0.65);
   border-radius: 0 !important;
 }
