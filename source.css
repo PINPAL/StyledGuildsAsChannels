@@ -209,7 +209,7 @@
   content: "Error!\a\a\a DisplayServersAsChannels is not installed or enabled.";
   white-space: pre-wrap;
   text-align: center;
-  z-index: 9999;
+  z-index: 4;
   display: block;
   width: 56px;
   height: 56px;
