@@ -1,17 +1,17 @@
 .styledGuildsAsChannels-DNHtg_ {
-  /* extra top padding & background */
+  // extra top padding & background
   .guilds-1SWlCJ .scrollerBase-289Jih {
     padding-top: 8px;
     background-color: var(--sgac-background-color) !important;
   }
 
   .wrapper-3Njo_c {
-    /* Uniform width */
+    // Uniform width
     .listItem-GuPuDH {
       width: 220px !important;
     }
 
-    /* Folder background */
+    // Folder background
     .expandedFolderBackground-1cujaW {
       width: 220px !important;
       left: 8px !important;
@@ -25,52 +25,62 @@
       }
     }
 
-    /* Folder background hover effect */
+    // Folder background hover effect
     &:hover .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
       background-color: rgb(var(--sgac-background-light)) !important;
     }
   }
 
-  /* Notification badges */
+  // Notification badges
   .childWrapper-anI2G9 .numberBadge-2s8kKX {
     background-color: rgba(var(--sgac-text-color), 0.2) !important;
   }
 
   [aria-label="Servers"] {
-    /* Servers that ARE in folders */
+    // Servers that ARE in folders
     .wrapper-3Njo_c .listItem-GuPuDH {
       .childWrapper-anI2G9,
       .folder-1hbNCn,
       .wrapper-1BJsBx {
         background-color: transparent !important;
         background: transparent !important;
+
+        // Selected servers
+        &.selected-bZ3Lue {
+          .childWrapper-anI2G9 {
+            background-color: rgb(var(--sgac-accent)) !important;
+            color: rgb(var(--sgac-text-color)) !important;
+          }
+        }
       }
     }
 
-    /* Servers NOT in folders */
-    & > .listItem-GuPuDH .childWrapper-anI2G9 {
-      padding-left: 12px !important;
-      flex-direction: row-reverse !important;
-      background: rgb(var(--sgac-background-dark)) !important;
-      color: rgba(var(--sgac-text-color), 0.65);
-      border-radius: 0 !important;
-    }
-
-    /* Selected servers (in & outside folders) */
-    .wrapper-3Njo_c
-      .listItem-GuPuDH
-      .wrapper-1BJsBx.selected-bZ3Lue
-      .childWrapper-anI2G9 {
-      background-color: rgb(var(--sgac-accent)) !important;
-      color: rgb(var(--sgac-text-color)) !important;
+    // Servers NOT in folders
+    & > .listItem-GuPuDH {
+      .wrapper-1BJsBx {
+        .childWrapper-anI2G9 {
+          padding-left: 12px !important;
+          flex-direction: row-reverse !important;
+          background: rgb(var(--sgac-background-dark)) !important;
+          color: rgba(var(--sgac-text-color), 0.65);
+          border-radius: 0 !important;
+        }
+        // Selected servers
+        &.selected-bZ3Lue {
+          .childWrapper-anI2G9 {
+            background-color: rgb(var(--sgac-accent)) !important;
+            color: rgb(var(--sgac-text-color)) !important;
+          }
+        }
+      }
     }
   }
 
-  /* Smaller custom folder icons */
+  // Smaller custom folder icons
   .betterFolders-customIcon {
     background-size: 36px;
   }
-  /* Hide original folder icons */
+  // Hide original folder icons
   .guilds-1SWlCJ {
     .wrapper-3Njo_c .icon-GhnIRB {
       display: none;
@@ -82,12 +92,12 @@
     }
   }
 
-  /* Hide giant discord logo on "Home" button */
+  // Hide giant discord logo on "Home" button
   .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-FuNwkv {
     display: none !important;
   }
 
-  /* "Add a Server" & "Explore Public Servers" buttons */
+  // "Add a Server" & "Explore Public Servers" buttons
   .guilds-1SWlCJ .circleButtonBase-2DCxIZ {
     background-color: rgb(var(--sgac-background-dark)) !important;
     border-radius: 4px !important;
@@ -109,7 +119,7 @@
       background: transparent !important;
       background-color: transparent !important;
     }
-    /* Hover & selected effects */
+    // Hover & selected effects
     &.selected-1JjBPm {
       background-color: rgb(var(--sgac-accent)) !important;
 
@@ -119,7 +129,7 @@
     }
   }
 
-  /* SHOW error message if plugin NOT detected */
+  // SHOW error message if plugin NOT detected
   .guilds-1SWlCJ {
     overflow: visible;
     &::before {
@@ -158,7 +168,7 @@
   }
 }
 
-/* HIDE error message if plugin IS detected */
+// HIDE error message if plugin IS detected
 .guilds-1SWlCJ {
   overflow: hidden;
   &::before {
