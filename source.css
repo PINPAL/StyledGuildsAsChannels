@@ -1,20 +1,6 @@
-.styledGuildsAsChannels-DNHtg_ {
-  /* extra top padding & background */
-  /* Notification badges */
-  /* Smaller custom folder icons */
-  /* Hide original folder icons */
-  /* Hide giant discord logo on "Home" button */
-  /* "Add a Server" & "Explore Public Servers" buttons */
-  /* SHOW error message if plugin NOT detected */
-}
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .scrollerBase-289Jih {
   padding-top: 8px;
   background-color: var(--sgac-background-color) !important;
-}
-.styledGuildsAsChannels-DNHtg_ .wrapper-3Njo_c {
-  /* Uniform width */
-  /* Folder background */
-  /* Folder background hover effect */
 }
 .styledGuildsAsChannels-DNHtg_ .wrapper-3Njo_c .listItem-GuPuDH {
   width: 220px !important;
@@ -37,25 +23,26 @@
 .styledGuildsAsChannels-DNHtg_ .childWrapper-anI2G9 .numberBadge-2s8kKX {
   background-color: rgba(var(--sgac-text-color), 0.2) !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] {
-  /* Servers that ARE in folders */
-  /* Servers NOT in folders */
-  /* Selected servers (in & outside folders) */
-}
 .styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .childWrapper-anI2G9,
 .styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .folder-1hbNCn,
 .styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .wrapper-1BJsBx {
   background-color: transparent !important;
   background: transparent !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] > .listItem-GuPuDH .childWrapper-anI2G9 {
+.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .childWrapper-anI2G9.selected-bZ3Lue .childWrapper-anI2G9,
+.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .folder-1hbNCn.selected-bZ3Lue .childWrapper-anI2G9,
+.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+  background-color: rgb(var(--sgac-accent)) !important;
+  color: rgb(var(--sgac-text-color)) !important;
+}
+.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] > .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
   padding-left: 12px !important;
   flex-direction: row-reverse !important;
   background: rgb(var(--sgac-background-dark)) !important;
   color: rgba(var(--sgac-text-color), 0.65);
   border-radius: 0 !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] > .listItem-GuPuDH .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   background-color: rgb(var(--sgac-accent)) !important;
   color: rgb(var(--sgac-text-color)) !important;
 }
@@ -79,7 +66,6 @@
   padding: 8px !important;
   height: 32px !important;
   position: relative;
-  /* Hover & selected effects */
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .circleButtonBase-2DCxIZ * {
   color: rgba(var(--sgac-text-color), 0.65) !important;
@@ -136,7 +122,6 @@
   font-size: 100%;
 }
 
-/* HIDE error message if plugin IS detected */
 .guilds-1SWlCJ {
   overflow: hidden;
 }
