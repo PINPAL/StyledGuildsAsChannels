@@ -37,10 +37,15 @@
   }
 
   div[aria-label="Servers"] {
-    // Servers that ARE in folders
-    .wrapper-3Njo_c .listItem-GuPuDH .childWrapper-anI2G9,
+    // Hide all containers
     .folder-1hbNCn,
     .wrapper-1BJsBx {
+      background-color: transparent !important;
+      background: transparent !important;
+    }
+
+    // Servers that ARE in folders
+    .wrapper-3Njo_c .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
       background-color: transparent !important;
       background: transparent !important;
     }
