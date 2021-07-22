@@ -23,26 +23,23 @@
 .styledGuildsAsChannels-DNHtg_ .childWrapper-anI2G9 .numberBadge-2s8kKX {
   background-color: rgba(var(--sgac-text-color), 0.2) !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .childWrapper-anI2G9,
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .folder-1hbNCn,
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .wrapper-1BJsBx {
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .folder-1hbNCn,
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .wrapper-1BJsBx {
   background-color: transparent !important;
   background: transparent !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .childWrapper-anI2G9.selected-bZ3Lue .childWrapper-anI2G9,
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .folder-1hbNCn.selected-bZ3Lue .childWrapper-anI2G9,
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
-  background-color: rgb(var(--sgac-accent)) !important;
-  color: rgb(var(--sgac-text-color)) !important;
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
+  background-color: transparent !important;
+  background: transparent !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] > .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] > .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
   padding-left: 12px !important;
   flex-direction: row-reverse !important;
   background: rgb(var(--sgac-background-dark)) !important;
   color: rgba(var(--sgac-text-color), 0.65);
   border-radius: 0 !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] > .listItem-GuPuDH .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
   background-color: rgb(var(--sgac-accent)) !important;
   color: rgb(var(--sgac-text-color)) !important;
 }
