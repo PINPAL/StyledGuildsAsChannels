@@ -48,10 +48,6 @@
   background-color: transparent !important;
   background: transparent !important;
 }
-.styledGuildsAsChannels-DNHtg_ [aria-label=Servers] .wrapper-3Njo_c .listItem-GuPuDH .da-folder[aria-expanded=true] .childWrapper-anI2G9 {
-  background-color: rgba(var(--sgac-text-color), 0.1) !important;
-  color: rgb(var(--sgac-text-color)) !important;
-}
 .styledGuildsAsChannels-DNHtg_ [aria-label=Servers] > .listItem-GuPuDH .childWrapper-anI2G9 {
   padding-left: 12px !important;
   flex-direction: row-reverse !important;
@@ -69,7 +65,6 @@
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .wrapper-3Njo_c .icon-GhnIRB {
   display: none;
 }
-.styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .da-folder,
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .folderIconWrapper-1_bOZe {
   background-color: transparent !important;
   background: transparent !important;
