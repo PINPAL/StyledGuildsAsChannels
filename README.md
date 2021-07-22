@@ -11,7 +11,7 @@ Stylesheet for Display Servers As Channels for BetterDiscord
 ### Recommended
 
 - [BetterFolders](https://betterdiscord.app/plugin/BetterFolders)
-  It is recommended that you setup custom folder icons using the above recommended plugin.
+  It is recommended that you setup custom folder icons using the recommended plugin.
 
 ### Installation
 
