@@ -1,0 +1,13 @@
+{
+  "name": "css_thing",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+	"build":"sass src/* build/source.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.35.2"
+  }
+}
