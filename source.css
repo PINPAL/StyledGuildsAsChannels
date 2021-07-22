@@ -88,9 +88,16 @@
   color: rgb(var(--sgac-text-color)) !important;
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ {
-  overflow: visible;
+  overflow: hidden;
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ::before {
+  display: none !important;
+}
+
+.guilds-1SWlCJ {
+  overflow: visible;
+}
+.guilds-1SWlCJ::before {
   background-image: url("https://github.com/PINPAL/StyledGuildsAsChannels/blob/main/images/warning.png?raw=true");
   background-repeat: no-repeat;
   background-size: 24px;
@@ -110,7 +117,7 @@
   font-size: 0%;
   transition: width 0.3s ease-in-out, height 0.3s ease-in-out, color 0.65s ease-in-out;
 }
-.styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ:hover::before {
+.guilds-1SWlCJ:hover::before {
   background-position: 16px 12px;
   box-shadow: inset 0 calc(16px + 2rem) 0px 0px rgba(0, 0, 0, 0.25), 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
   padding: 16px 8px;
@@ -120,13 +127,6 @@
   width: 220px;
   height: calc(32px + 4em);
   font-size: 100%;
-}
-
-.guilds-1SWlCJ {
-  overflow: hidden;
-}
-.guilds-1SWlCJ::before {
-  display: none !important;
 }
 
 /*# sourceMappingURL=source.css.map */
