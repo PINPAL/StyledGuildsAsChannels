@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-	"build":"sass src/* build/source.css"
+    "build": "sass src/source.scss build/source.css"
   },
   "author": "",
   "license": "ISC",
