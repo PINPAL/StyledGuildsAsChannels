@@ -58,6 +58,7 @@
   display: none !important;
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .circleButtonBase-2DCxIZ {
+  width: 220px !important;
   background-color: rgb(var(--sgac-background-dark)) !important;
   border-radius: 4px !important;
   padding: 8px !important;
