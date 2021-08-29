@@ -64,6 +64,7 @@
   padding: 8px !important;
   height: 32px !important;
   position: relative;
+  width: 220px !important;
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .circleButtonBase-2DCxIZ * {
   color: rgba(var(--sgac-text-color), 0.65) !important;
