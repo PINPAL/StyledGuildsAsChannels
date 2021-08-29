@@ -90,6 +90,9 @@
   }
 
   // "Add a Server" & "Explore Public Servers" buttons
+  .guilds-1SWlCJ .listItem-GuPuDH foreignObject {
+    width: 22px !important;
+  }
   .guilds-1SWlCJ .circleButtonBase-2DCxIZ {
     width: 220px !important;
     background-color: rgb(var(--sgac-background-dark)) !important;
@@ -97,7 +100,6 @@
     padding: 8px !important;
     height: 32px !important;
     position: relative;
-    width: 220px !important;
 
     * {
       color: rgba(var(--sgac-text-color), 0.65) !important;
