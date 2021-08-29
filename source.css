@@ -57,6 +57,9 @@
 .styledGuildsAsChannels-DNHtg_ .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-FuNwkv {
   display: none !important;
 }
+.styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .listItem-GuPuDH foreignObject {
+  width: 22px !important;
+}
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .circleButtonBase-2DCxIZ {
   width: 220px !important;
   background-color: rgb(var(--sgac-background-dark)) !important;
@@ -64,7 +67,6 @@
   padding: 8px !important;
   height: 32px !important;
   position: relative;
-  width: 220px !important;
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-1SWlCJ .circleButtonBase-2DCxIZ * {
   color: rgba(var(--sgac-text-color), 0.65) !important;
