@@ -5,28 +5,28 @@
     background-color: var(--sgac-background-color) !important;
   }
 
-  .wrapper-3Njo_c {
+  .wrapper-shyHJt {
     // Uniform width
-    .listItem-GuPuDH {
+    .listItem-2Ig28I {
       width: 220px !important;
     }
 
     // Folder background
-    .expandedFolderBackground-1cujaW {
+    .expandedFolderBackground-3ZDF05 {
       width: 220px !important;
       left: 8px !important;
       background-color: rgb(var(--sgac-background-light)) !important;
       border-top-style: solid;
       border-top-width: 36px;
       border-top-color: rgba(var(--sgac-text-color), 0.1);
-      &.collapsed-2ZrjoL {
+      &.collapsed-2Zqqnx {
         background-color: rgb(var(--sgac-background-dark)) !important;
         border-top-style: none;
       }
     }
 
     // Folder background hover effect
-    &:hover .expandedFolderBackground-1cujaW.collapsed-2ZrjoL {
+    &:hover .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx {
       background-color: rgb(var(--sgac-accent)) !important;
     }
   }
@@ -37,6 +37,10 @@
   }
 
   div[aria-label="Servers"] {
+    // Uniform Margin
+    .listItem-2Ig28I {
+      margin-bottom: 8px !important;
+    }
     // Hide all containers
     .folder-1hbNCn,
     .wrapper-1BJsBx {
@@ -45,18 +49,31 @@
     }
 
     // Servers that ARE in folders
-    .wrapper-3Njo_c .listItem-GuPuDH .childWrapper-anI2G9 {
-      background-color: transparent !important;
-      background: transparent !important;
+    .wrapper-shyHJt {
+      .listItem-2Ig28I {
+        .folder-2w6LX1,
+        .childWrapper-anI2G9 {
+          background-color: transparent !important;
+          background: transparent !important;
+        }
+      }
     }
 
     // Servers NOT in folders
-    & > .listItem-GuPuDH .wrapper-1BJsBx .childWrapper-anI2G9 {
-      padding-left: 12px !important;
-      flex-direction: row-reverse !important;
-      background: rgb(var(--sgac-background-dark)) !important;
-      color: rgba(var(--sgac-text-color), 0.65);
-      border-radius: 0 !important;
+    & > .listItem-2Ig28I {
+      margin-bottom: 4px !important;
+      margin-top: -2px !important;
+      .wrapper-1BJsBx {
+        height: 36px !important;
+        .childWrapper-anI2G9 {
+          height: 36px !important;
+          padding-left: 12px !important;
+          flex-direction: row-reverse !important;
+          background: rgb(var(--sgac-background-dark)) !important;
+          color: rgba(var(--sgac-text-color), 0.65);
+          border-radius: 0 !important;
+        }
+      }
     }
 
     // Selected Servers (in & outside folders)
@@ -74,7 +91,7 @@
   }
   // Hide original folder icons
   .guilds-1SWlCJ {
-    .wrapper-3Njo_c .icon-GhnIRB {
+    .wrapper-shyHJt .icon-GhnIRB {
       display: none;
     }
     .folderIconWrapper-1_bOZe {
@@ -85,20 +102,23 @@
   }
 
   // Hide giant discord logo on "Home" button
-  .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-FuNwkv {
+  .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-AaowEC {
     display: none !important;
   }
 
   // "Add a Server" & "Explore Public Servers" buttons
-  .guilds-1SWlCJ .listItem-GuPuDH foreignObject {
-    width: 22px !important;
+  .guilds-1SWlCJ .listItem-2Ig28I {
+    margin-bottom: 4px !important;
+    foreignObject {
+      width: 22px !important;
+    }
   }
-  .guilds-1SWlCJ .circleButtonBase-2DCxIZ {
+  .guilds-1SWlCJ .circleIconButton-hZmpE8 {
     width: 220px !important;
     background-color: rgb(var(--sgac-background-dark)) !important;
     border-radius: 4px !important;
     padding: 8px !important;
-    height: 32px !important;
+    height: 36px !important;
     position: relative;
 
     * {
@@ -110,13 +130,13 @@
       transform: translateY(-50%);
       right: 14px;
     }
-    .childWrapper-anI2G9 {
+    ~ .childWrapper-anI2G9 {
       border: none !important;
       background: transparent !important;
       background-color: transparent !important;
     }
     // Hover & selected effects
-    &.selected-1JjBPm {
+    &.selected-3mFF3I {
       background-color: rgb(var(--sgac-accent)) !important;
 
       .childWrapper-anI2G9 * {
