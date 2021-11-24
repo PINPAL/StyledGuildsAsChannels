@@ -31,6 +31,9 @@
   background-color: transparent !important;
   background: transparent !important;
 }
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .childWrapper-anI2G9 {
+  color: rgba(var(--sgac-text-color), 0.65);
+}
 .styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .wrapper-shyHJt .listItem-2Ig28I .folder-2w6LX1,
 .styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .wrapper-shyHJt .listItem-2Ig28I .childWrapper-anI2G9 {
   background-color: transparent !important;
@@ -48,7 +51,6 @@
   padding-left: 12px !important;
   flex-direction: row-reverse !important;
   background: rgb(var(--sgac-background-dark)) !important;
-  color: rgba(var(--sgac-text-color), 0.65);
   border-radius: 0 !important;
 }
 .styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 {
@@ -79,7 +81,7 @@
   width: 220px !important;
   background-color: rgb(var(--sgac-background-dark)) !important;
   border-radius: 4px !important;
-  padding: 8px !important;
+  padding: 4px !important;
   height: 36px !important;
   position: relative;
 }
