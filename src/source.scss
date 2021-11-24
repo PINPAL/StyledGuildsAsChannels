@@ -48,6 +48,11 @@
       background: transparent !important;
     }
 
+    // All Servers
+    .childWrapper-anI2G9 {
+      color: rgba(var(--sgac-text-color), 0.65);
+    }
+
     // Servers that ARE in folders
     .wrapper-shyHJt {
       .listItem-2Ig28I {
@@ -70,7 +75,6 @@
           padding-left: 12px !important;
           flex-direction: row-reverse !important;
           background: rgb(var(--sgac-background-dark)) !important;
-          color: rgba(var(--sgac-text-color), 0.65);
           border-radius: 0 !important;
         }
       }
@@ -117,7 +121,7 @@
     width: 220px !important;
     background-color: rgb(var(--sgac-background-dark)) !important;
     border-radius: 4px !important;
-    padding: 8px !important;
+    padding: 4px !important;
     height: 36px !important;
     position: relative;
 
