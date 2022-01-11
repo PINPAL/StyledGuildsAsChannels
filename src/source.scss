@@ -1,63 +1,63 @@
 .styledGuildsAsChannels-DNHtg_ {
   // extra top padding & background
-  .guilds-1SWlCJ .scrollerBase-289Jih {
+  .guilds-2JjMmN .scrollerBase-_bVAAt {
     padding-top: 8px;
     background-color: var(--sgac-background-color) !important;
   }
 
-  .wrapper-shyHJt {
+  .wrapper-38slSD {
     // Uniform width
-    .listItem-2Ig28I {
+    .listItem-3SmSlK {
       width: 220px !important;
     }
 
     // Folder background
-    .expandedFolderBackground-3ZDF05 {
+    .expandedFolderBackground-1kSAf6 {
       width: 220px !important;
       left: 8px !important;
       background-color: rgb(var(--sgac-background-light)) !important;
       border-top-style: solid;
       border-top-width: 36px;
       border-top-color: rgba(var(--sgac-text-color), 0.1);
-      &.collapsed-2Zqqnx {
+      &.collapsed-uGXEbi {
         background-color: rgb(var(--sgac-background-dark)) !important;
         border-top-style: none;
       }
     }
 
     // Folder background hover effect
-    &:hover .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx {
+    &:hover .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
       background-color: rgb(var(--sgac-accent)) !important;
     }
   }
 
   // Notification badges
-  .childWrapper-anI2G9 .numberBadge-2s8kKX {
+  .childWrapper-1j_1ub .numberBadge-2s8kKX {
     background-color: rgba(var(--sgac-text-color), 0.2) !important;
   }
 
   div[aria-label="Servers"] {
     // Uniform Margin
-    .listItem-2Ig28I {
+    .listItem-3SmSlK {
       margin-bottom: 8px !important;
     }
     // Hide all containers
-    .folder-1hbNCn,
-    .wrapper-1BJsBx {
+    .folder-241Joy,
+    .wrapper-3kah-n {
       background-color: transparent !important;
       background: transparent !important;
     }
 
     // All Servers
-    .childWrapper-anI2G9 {
+    .childWrapper-1j_1ub {
       color: rgba(var(--sgac-text-color), 0.65);
     }
 
     // Servers that ARE in folders
-    .wrapper-shyHJt {
-      .listItem-2Ig28I {
-        .folder-2w6LX1,
-        .childWrapper-anI2G9 {
+    .wrapper-38slSD {
+      .listItem-3SmSlK {
+        .folder-241Joy,
+        .childWrapper-1j_1ub {
           background-color: transparent !important;
           background: transparent !important;
         }
@@ -65,12 +65,12 @@
     }
 
     // Servers NOT in folders
-    & > .listItem-2Ig28I {
+    & > .listItem-3SmSlK {
       margin-bottom: 4px !important;
       margin-top: -2px !important;
-      .wrapper-1BJsBx {
+      .wrapper-3kah-n {
         height: 36px !important;
-        .childWrapper-anI2G9 {
+        .childWrapper-1j_1ub {
           height: 36px !important;
           padding-left: 12px !important;
           flex-direction: row-reverse !important;
@@ -81,8 +81,8 @@
     }
 
     // Selected Servers (in & outside folders)
-    .wrapper-1BJsBx.selected-bZ3Lue {
-      .childWrapper-anI2G9 {
+    .wrapper-3kah-n.selected-1Drb7Z {
+      .childWrapper-1j_1ub {
         background-color: rgb(var(--sgac-accent)) !important;
         color: rgb(var(--sgac-text-color)) !important;
       }
@@ -94,11 +94,11 @@
     background-size: 36px;
   }
   // Hide original folder icons
-  .guilds-1SWlCJ {
-    .wrapper-shyHJt .icon-GhnIRB {
+  .guilds-2JjMmN {
+    .wrapper-38slSD .icon-GhnIRB {
       display: none;
     }
-    .folderIconWrapper-1Ml_1q {
+    .folderIconWrapper-1oRIZr {
       background-color: transparent !important;
       background: transparent !important;
       margin-right: -8px;
@@ -106,18 +106,18 @@
   }
 
   // Hide giant discord logo on "Home" button
-  .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-AaowEC {
+  .wrapper-3kah-n .childWrapper-1j_1ub .homeIcon-r0w4ny {
     display: none !important;
   }
 
   // "Add a Server" & "Explore Public Servers" buttons
-  .guilds-1SWlCJ .listItem-2Ig28I {
+  .guilds-2JjMmN .listItem-3SmSlK {
     margin-bottom: 4px !important;
     foreignObject {
       width: 22px !important;
     }
   }
-  .guilds-1SWlCJ .circleIconButton-hZmpE8 {
+  .guilds-2JjMmN .circleIconButton-1VxDrg {
     width: 220px !important;
     background-color: rgb(var(--sgac-background-dark)) !important;
     border-radius: 4px !important;
@@ -134,23 +134,23 @@
       transform: translateY(-50%);
       right: 14px;
     }
-    ~ .childWrapper-anI2G9 {
+    ~ .childWrapper-1j_1ub {
       border: none !important;
       background: transparent !important;
       background-color: transparent !important;
     }
     // Hover & selected effects
-    &.selected-3mFF3I {
+    &.selected-2r1Hvo {
       background-color: rgb(var(--sgac-accent)) !important;
 
-      .childWrapper-anI2G9 * {
+      .childWrapper-1j_1ub * {
         color: rgb(var(--sgac-text-color)) !important;
       }
     }
   }
 
   // HIDE error message if plugin IS detected
-  .guilds-1SWlCJ {
+  .guilds-2JjMmN {
     overflow: hidden;
     &::before {
       display: none !important;
@@ -159,7 +159,7 @@
 }
 
 // SHOW error message if plugin NOT detected
-.guilds-1SWlCJ {
+.guilds-2JjMmN {
   overflow: visible;
   &::before {
     background-image: url("https://github.com/PINPAL/StyledGuildsAsChannels/blob/main/images/warning.png?raw=true");
