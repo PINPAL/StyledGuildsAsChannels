@@ -1,19 +1,100 @@
 .styledGuildsAsChannels-DNHtg_ {
   // extra top padding & background
-  .guilds-1SWlCJ .scrollerBase-289Jih {
-    padding-top: 8px;
-    background-color: var(--sgac-background-color) !important;
+  .guilds-1SWlCJ {
+    width: calc(var(--sgac-sidebar-width) + 16px) !important;
+    .scrollerBase-289Jih {
+      padding-top: 8px;
+      background-color: var(--sgac-background-color) !important;
+      width: calc(var(--sgac-sidebar-width) + 16px) !important;
+    }
+  }
+
+  // Hover Expand Effect
+  .guilds-1SWlCJ {
+    --sgac-sidebar-width: 40px;
+    transition: width 0.25s ease;
+    transition-delay: 0.33s;
+    // Transition
+    .listItem-2Ig28I,
+    .folder-2w6LX1,
+    .childWrapper-anI2G9,
+    .wrapper-1BJsBx,
+    .wrapper-shyHJt .expandedFolderBackground-3ZDF05,
+    .circleIconButton-hZmpE8,
+    .badge-fxFrUP,
+    .folderIconWrapper-1Ml_1q,
+    .homeIcon-AaowEC {
+      transition-delay: 0.33s !important;
+    }
+    // Hide Text
+    .name-z5133D {
+      font-size: 0 !important;
+      opacity: 0 !important;
+      transition: font-size 0s linear 0.33s, opacity 0.25s ease 0.08s !important;
+    }
+    // Fix Centering
+    .badge-fxFrUP {
+      margin-right: 0;
+      transition: margin 0.33s ease;
+    }
+    .folderIconWrapper-1Ml_1q {
+      margin-right: 0;
+      transition: margin 0.33s ease;
+    }
+    .homeIcon-AaowEC {
+      margin-right: 0;
+      transition: margin 0.33s ease;
+    }
+    &:hover {
+      transition-delay: 0s;
+      // Transition
+      .listItem-2Ig28I,
+      .folder-2w6LX1,
+      .childWrapper-anI2G9,
+      .wrapper-1BJsBx,
+      .wrapper-shyHJt .expandedFolderBackground-3ZDF05,
+      .circleIconButton-hZmpE8,
+      .badge-fxFrUP,
+      .folderIconWrapper-1Ml_1q,
+      .homeIcon-AaowEC {
+        transition-delay: 0s !important;
+      }
+      --sgac-sidebar-width: 220px;
+      // Unhide Text
+      .name-z5133D {
+        font-size: initial !important;
+        opacity: 1 !important;
+        transition: font-size 0s linear 0s, opacity 0.25s ease 0.15s !important;
+      }
+      // Fix Centering
+      .badge-fxFrUP {
+        margin-right: 4px;
+      }
+      .folderIconWrapper-1Ml_1q {
+        margin-right: -8px;
+      }
+      .homeIcon-AaowEC {
+        margin-right: 4px;
+      }
+    }
+  }
+
+  // Uniform width
+  .guilds-1SWlCJ {
+    .listItem-2Ig28I,
+    .folder-2w6LX1,
+    .childWrapper-anI2G9,
+    .wrapper-1BJsBx,
+    .wrapper-shyHJt .expandedFolderBackground-3ZDF05,
+    .circleIconButton-hZmpE8 {
+      width: var(--sgac-sidebar-width) !important;
+      transition: width 0.25s ease;
+    }
   }
 
   .wrapper-shyHJt {
-    // Uniform width
-    .listItem-2Ig28I {
-      width: 220px !important;
-    }
-
     // Folder background
     .expandedFolderBackground-3ZDF05 {
-      width: 220px !important;
       left: 8px !important;
       background-color: rgb(var(--sgac-background-light)) !important;
       border-top-style: solid;
@@ -31,9 +112,15 @@
     }
   }
 
-  // Notification badges
-  .childWrapper-anI2G9 .numberBadge-2s8kKX {
-    background-color: rgba(var(--sgac-text-color), 0.2) !important;
+  .childWrapper-anI2G9 {
+    // Notification badges
+    .numberBadge-2s8kKX {
+      background-color: rgba(var(--sgac-text-color), 0.2) !important;
+    }
+    // Server Badge
+    .badge-fxFrUP:nth-child(2) {
+      display: none !important;
+    }
   }
 
   div[aria-label="Servers"] {
@@ -101,13 +188,14 @@
     .folderIconWrapper-1Ml_1q {
       background-color: transparent !important;
       background: transparent !important;
-      margin-right: -8px;
     }
   }
 
-  // Hide giant discord logo on "Home" button
+  // Discord logo on "Home" button
   .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-AaowEC {
-    display: none !important;
+    width: 24px;
+    height: 17px;
+    opacity: 0.75;
   }
 
   // "Add a Server" & "Explore Public Servers" buttons
@@ -118,7 +206,6 @@
     }
   }
   .guilds-1SWlCJ .circleIconButton-hZmpE8 {
-    width: 220px !important;
     background-color: rgb(var(--sgac-background-dark)) !important;
     border-radius: 4px !important;
     padding: 4px !important;
@@ -127,12 +214,6 @@
 
     * {
       color: rgba(var(--sgac-text-color), 0.65) !important;
-    }
-    svg {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      right: 14px;
     }
     ~ .childWrapper-anI2G9 {
       border: none !important;
@@ -190,7 +271,7 @@
     padding-top: -60px;
     font-weight: 500;
     color: white;
-    width: 220px;
+    width: var(--sgac-sidebar-width);
     height: calc(32px + 4em);
     font-size: 100%;
   }
