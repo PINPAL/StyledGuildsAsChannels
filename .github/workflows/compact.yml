@@ -1,4 +1,4 @@
-name: Compile Styles
+name: Compile Compact Styles
 on:
   push:
     branches:
