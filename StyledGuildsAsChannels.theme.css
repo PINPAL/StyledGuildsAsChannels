@@ -1,15 +1,15 @@
 /**
- * @name StyledGuildsAsChannels
+ * @name StyledGuildsAsChannels COMPACT EDITION
  * @author PINPAL
- * @version 2.1.2
- * @description Custom Styles for DisplayServersAsChannels Plugin by DevilBro
+ * @version 1.0.0
+ * @description Custom Styles for DisplayServersAsChannels Plugin by DevilBro (Compact Edition)
  * @website https://pinpal.github.io
  * @source https://github.com/PINPAL/StyledGuildsAsChannels
  * @donate https://paypal.me/THEPINPAL
  * @authorLink https://twitter.com/TPINPAL
 */
 
-@import url(https://pinpal.github.io/StyledGuildsAsChannels/source.css);
+@import url(https://pinpal.github.io/StyledGuildsAsChannels/compact.css);
 
 /* customisable variables */
 :root {
@@ -18,4 +18,6 @@
   --sgac-background-light: 57, 59, 64;
   --sgac-background-dark: 41, 43, 47;
   --sgac-background-color: #16171a;
+
+  --width-servers: 80px;
 }
