@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - main
-      - compact
 jobs:
   build-doc:
     runs-on: ubuntu-latest
