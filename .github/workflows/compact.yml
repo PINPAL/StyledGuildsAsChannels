@@ -2,7 +2,7 @@ name: Compile Compact Styles
 on:
   push:
     branches:
-      - compact
+      - "compact"
 jobs:
   build-doc:
     runs-on: ubuntu-latest
