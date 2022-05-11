@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "sass src/source.scss build/source.css --no-source-map"
+    "build": "sass src/source.scss build/compact.css --no-source-map"
   },
   "author": "",
   "license": "ISC",
