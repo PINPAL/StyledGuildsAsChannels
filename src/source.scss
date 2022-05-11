@@ -1,150 +1,158 @@
+:root {
+  --width-servers: 80px;
+}
+
+// display now playing column on lower resolutions than default
+.nowPlayingColumn-1eCBCN {
+  display: block !important;
+}
+@media (max-width: 800px) {
+  .nowPlayingColumn-1eCBCN {
+    display: none !important;
+  }
+}
+
 .styledGuildsAsChannels-DNHtg_ {
   // extra top padding & background
-  .guilds-1SWlCJ {
-    width: calc(var(--sgac-sidebar-width) + 16px) !important;
-    .scrollerBase-289Jih {
-      padding-top: 8px;
-      background-color: var(--sgac-background-color) !important;
-      width: calc(var(--sgac-sidebar-width) + 16px) !important;
-    }
+  .guilds-2JjMmN .scrollerBase-_bVAAt {
+    padding-top: 8px;
+    background-color: var(--sgac-background-color) !important;
   }
 
-  // Hover Expand Effect
-  .guilds-1SWlCJ {
-    --sgac-sidebar-width: 40px;
-    transition: width 0.25s ease;
-    transition-delay: 0.33s;
-    // Transition
-    .listItem-2Ig28I,
-    .folder-2w6LX1,
-    .childWrapper-anI2G9,
-    .wrapper-1BJsBx,
-    .wrapper-shyHJt .expandedFolderBackground-3ZDF05,
-    .circleIconButton-hZmpE8,
-    .badge-fxFrUP,
-    .folderIconWrapper-1Ml_1q,
-    .homeIcon-AaowEC {
-      transition-delay: 0.33s !important;
-    }
-    // Hide Text
+  // main sidebar width
+  .guilds-2JjMmN,
+  .guilds-2JjMmN .scrollerBase-_bVAAt {
+    width: var(--width-servers) !important;
+    transition: width 0.35s;
+  }
+  // folders,
+  // servers,
+  // unread messages
+  .wrapper-1_HaEi,
+  .wrapper-3kah-n,
+  .unreadMentionsIndicatorBottom-3RJMnQ,
+  .unreadMentionsIndicatorTop-2bTgUU {
+    width: calc(var(--width-servers) - 20px) !important;
+  }
+  // sidebar items,
+  // folders
+  // servers in folders
+  .listItem-3SmSlK,
+  .folder-241Joy,
+  .childWrapper-1j_1ub {
+    width: calc(var(--width-servers) - 32px) !important;
+  }
+  // servers outside folders
+  // folder background
+  // add servers & discover servers buttons
+  // giant discord logo at the top
+  .wrapper-3kah-n .childWrapper-1j_1ub,
+  .expandedFolderBackground-1kSAf6,
+  .circleIconButton-1VxDrg,
+  .tutorialContainer-1pL9QS .wrapper-3kah-n {
+    width: calc(var(--width-servers) - 36px) !important;
+  }
+
+  // servers outside folders ICONS
+  .childWrapper-1j_1ub .badge-fxFrUP {
+    margin-right: 4px !important;
+  }
+  // servers in folders ICONS
+  ul[role="group"]
+    .wrapper-3kah-n
+    .childWrapper-1j_1ub
+    .badge-fxFrUP:not(:empty) {
+    margin-right: 0 !important;
+  }
+
+  // fix margin in compact
+  // servers in folders
+  // servers outside folders
+  .wrapper-38slSD .listItem-3SmSlK,
+  .listItem-3SmSlK.bd-guild {
+    margin-left: 0 !important;
+  }
+  // notification number indicator & DM in call icon (compact mode)
+  .numberBadge-37OJ3S,
+  .participating-2Z81oO {
+    position: absolute;
+    left: 20px;
+    top: 14px;
+  }
+  // notification number indicator & servers in call icon (compact mode)
+  div[aria-label="Servers"] .participating-2Z81oO {
+    left: 30px;
+  }
+
+  .childWrapper-1j_1ub {
+    // Hide text
     .name-z5133D {
+      visibility: hidden;
       font-size: 0 !important;
-      opacity: 0 !important;
-      transition: font-size 0s linear 0.33s, opacity 0.25s ease 0.08s !important;
+      width: 0 !important;
+      max-width: 0 !important;
     }
-    // Fix Centering
-    .badge-fxFrUP {
-      margin-right: 0;
-      transition: margin 0.33s ease;
-    }
-    .folderIconWrapper-1Ml_1q {
-      margin-right: 0;
-      transition: margin 0.33s ease;
-    }
-    .homeIcon-AaowEC {
-      margin-right: 0;
-      transition: margin 0.33s ease;
-    }
-    &:hover {
-      transition-delay: 0s;
-      // Transition
-      .listItem-2Ig28I,
-      .folder-2w6LX1,
-      .childWrapper-anI2G9,
-      .wrapper-1BJsBx,
-      .wrapper-shyHJt .expandedFolderBackground-3ZDF05,
-      .circleIconButton-hZmpE8,
-      .badge-fxFrUP,
-      .folderIconWrapper-1Ml_1q,
-      .homeIcon-AaowEC {
-        transition-delay: 0s !important;
-      }
-      --sgac-sidebar-width: 220px;
-      // Unhide Text
-      .name-z5133D {
-        font-size: initial !important;
-        opacity: 1 !important;
-        transition: font-size 0s linear 0s, opacity 0.25s ease 0.15s !important;
-      }
-      // Fix Centering
-      .badge-fxFrUP {
-        margin-right: 4px;
-      }
-      .folderIconWrapper-1Ml_1q {
-        margin-right: -8px;
-      }
-      .homeIcon-AaowEC {
-        margin-right: 4px;
-      }
+    // Hide badge
+    .badge-fxFrUP:nth-of-type(2) {
+      display: none !important;
     }
   }
 
-  // Uniform width
-  .guilds-1SWlCJ {
-    .listItem-2Ig28I,
-    .folder-2w6LX1,
-    .childWrapper-anI2G9,
-    .wrapper-1BJsBx,
-    .wrapper-shyHJt .expandedFolderBackground-3ZDF05,
-    .circleIconButton-hZmpE8 {
-      width: var(--sgac-sidebar-width) !important;
-      transition: width 0.25s ease;
-    }
-  }
-
-  .wrapper-shyHJt {
+  .wrapper-38slSD {
     // Folder background
-    .expandedFolderBackground-3ZDF05 {
+    .expandedFolderBackground-1kSAf6 {
       left: 8px !important;
       background-color: rgb(var(--sgac-background-light)) !important;
       border-top-style: solid;
       border-top-width: 36px;
       border-top-color: rgba(var(--sgac-text-color), 0.1);
-      &.collapsed-2Zqqnx {
+      &.collapsed-uGXEbi {
         background-color: rgb(var(--sgac-background-dark)) !important;
         border-top-style: none;
       }
     }
 
     // Folder background hover effect
-    &:hover .expandedFolderBackground-3ZDF05.collapsed-2Zqqnx {
+    &:hover .expandedFolderBackground-1kSAf6.collapsed-uGXEbi {
       background-color: rgb(var(--sgac-accent)) !important;
     }
   }
 
-  .childWrapper-anI2G9 {
-    // Notification badges
-    .numberBadge-2s8kKX {
-      background-color: rgba(var(--sgac-text-color), 0.2) !important;
-    }
-    // Server Badge
-    .badge-fxFrUP:nth-child(2) {
-      display: none !important;
+  // Notification badges
+  .childWrapper-1j_1ub .numberBadge-2s8kKX {
+    background-color: rgba(var(--sgac-text-color), 0.2) !important;
+  }
+  // In-Call indicator badge
+  .participating-2Z81oO {
+    background-color: rgb(var(--sgac-text-color)) !important;
+    svg path {
+      fill: var(--sgac-background-color) !important;
     }
   }
 
   div[aria-label="Servers"] {
     // Uniform Margin
-    .listItem-2Ig28I {
+    .listItem-3SmSlK {
       margin-bottom: 8px !important;
     }
     // Hide all containers
-    .folder-1hbNCn,
-    .wrapper-1BJsBx {
+    .folder-241Joy,
+    .wrapper-3kah-n {
       background-color: transparent !important;
       background: transparent !important;
     }
 
     // All Servers
-    .childWrapper-anI2G9 {
+    .childWrapper-1j_1ub {
       color: rgba(var(--sgac-text-color), 0.65);
+      border-radius: 4px !important;
     }
 
     // Servers that ARE in folders
-    .wrapper-shyHJt {
-      .listItem-2Ig28I {
-        .folder-2w6LX1,
-        .childWrapper-anI2G9 {
+    .wrapper-38slSD {
+      .listItem-3SmSlK {
+        .folder-241Joy,
+        .childWrapper-1j_1ub {
           background-color: transparent !important;
           background: transparent !important;
         }
@@ -152,24 +160,23 @@
     }
 
     // Servers NOT in folders
-    & > .listItem-2Ig28I {
+    & > .listItem-3SmSlK {
       margin-bottom: 4px !important;
       margin-top: -2px !important;
-      .wrapper-1BJsBx {
+      .wrapper-3kah-n {
         height: 36px !important;
-        .childWrapper-anI2G9 {
+        .childWrapper-1j_1ub {
           height: 36px !important;
           padding-left: 12px !important;
           flex-direction: row-reverse !important;
           background: rgb(var(--sgac-background-dark)) !important;
-          border-radius: 0 !important;
         }
       }
     }
 
     // Selected Servers (in & outside folders)
-    .wrapper-1BJsBx.selected-bZ3Lue {
-      .childWrapper-anI2G9 {
+    .wrapper-3kah-n.selected-1Drb7Z {
+      .childWrapper-1j_1ub {
         background-color: rgb(var(--sgac-accent)) !important;
         color: rgb(var(--sgac-text-color)) !important;
       }
@@ -181,31 +188,36 @@
     background-size: 36px;
   }
   // Hide original folder icons
-  .guilds-1SWlCJ {
-    .wrapper-shyHJt .icon-GhnIRB {
+  .guilds-2JjMmN {
+    .wrapper-38slSD .icon-GhnIRB {
       display: none;
     }
-    .folderIconWrapper-1Ml_1q {
+    .folderIconWrapper-1oRIZr {
       background-color: transparent !important;
       background: transparent !important;
+      margin-right: -8px;
     }
   }
 
-  // Discord logo on "Home" button
-  .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-AaowEC {
-    width: 24px;
-    height: 17px;
-    opacity: 0.75;
+  // Compact giant discord logo on "Home" button
+  .tutorialContainer-1pL9QS {
+    .name-z5133D {
+      visibility: hidden !important;
+    }
+    .homeIcon-r0w4ny {
+      width: 24px;
+      height: 17px;
+    }
   }
 
   // "Add a Server" & "Explore Public Servers" buttons
-  .guilds-1SWlCJ .listItem-2Ig28I {
+  .guilds-2JjMmN .listItem-3SmSlK {
     margin-bottom: 4px !important;
     foreignObject {
       width: 22px !important;
     }
   }
-  .guilds-1SWlCJ .circleIconButton-hZmpE8 {
+  .guilds-2JjMmN .circleIconButton-1VxDrg {
     background-color: rgb(var(--sgac-background-dark)) !important;
     border-radius: 4px !important;
     padding: 4px !important;
@@ -215,32 +227,109 @@
     * {
       color: rgba(var(--sgac-text-color), 0.65) !important;
     }
-    ~ .childWrapper-anI2G9 {
+    svg {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: unset !important;
+    }
+    ~ .childWrapper-1j_1ub {
       border: none !important;
       background: transparent !important;
       background-color: transparent !important;
     }
     // Hover & selected effects
-    &.selected-3mFF3I {
+    &.selected-2r1Hvo {
       background-color: rgb(var(--sgac-accent)) !important;
 
-      .childWrapper-anI2G9 * {
+      .childWrapper-1j_1ub * {
         color: rgb(var(--sgac-text-color)) !important;
       }
     }
   }
 
   // HIDE error message if plugin IS detected
-  .guilds-1SWlCJ {
+  .guilds-2JjMmN {
     overflow: hidden;
     &::before {
       display: none !important;
     }
   }
+
+  // Hover width
+  .guilds-2JjMmN:hover {
+    width: 240px !important;
+
+    .scrollerBase-_bVAAt {
+      width: 240px !important;
+    }
+
+    // show text
+    .childWrapper-1j_1ub {
+      .name-z5133D {
+        visibility: visible;
+        font-size: 16px !important;
+        width: fit-content !important;
+        max-width: 99999px !important;
+      }
+    }
+
+    // Apply left padding to all servers
+    .listItem-3SmSlK {
+      margin-left: 8px !important;
+    }
+
+    // Fix folder bg
+    .expandedFolderBackground-1kSAf6 {
+      left: 6px !important;
+    }
+
+    // fix circle buttons (add / discover server)
+    .circleIconButton-1VxDrg svg {
+      right: 14px !important;
+    }
+
+    // spacing between icon and text (servers inside folders)
+    ul[role="group"]
+      .wrapper-3kah-n
+      .childWrapper-1j_1ub
+      .badge-fxFrUP:not(:empty) {
+      margin-right: 4px !important;
+    }
+
+    // Hide giant discord logo on "Home" button
+    .tutorialContainer-1pL9QS {
+      .name-z5133D {
+        visibility: visible !important;
+      }
+      .homeIcon-r0w4ny {
+        display: none !important;
+      }
+    }
+    // notification number indicator & server in call icon (expanded mode)
+    .numberBadge-37OJ3S,
+    .participating-2Z81oO {
+      position: block;
+      left: unset;
+      top: unset;
+      right: 8px;
+    }
+
+    .listItem-3SmSlK,
+    .expandedFolderBackground-1kSAf6,
+    .circleIconButton-1VxDrg,
+    .wrapper-3kah-n,
+    div[aria-label="Servers"] .childWrapper-1j_1ub,
+    .unreadMentionsIndicatorBottom-3RJMnQ,
+    .folder-241Joy,
+    .childWrapper-1j_1ub {
+      width: 220px !important;
+    }
+  }
 }
 
 // SHOW error message if plugin NOT detected
-.guilds-1SWlCJ {
+.guilds-2JjMmN {
   overflow: visible;
   &::before {
     background-image: url("https://github.com/PINPAL/StyledGuildsAsChannels/blob/main/images/warning.png?raw=true");
@@ -271,7 +360,7 @@
     padding-top: -60px;
     font-weight: 500;
     color: white;
-    width: var(--sgac-sidebar-width);
+    width: 220px;
     height: calc(32px + 4em);
     font-size: 100%;
   }
