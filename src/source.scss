@@ -72,16 +72,17 @@
   .listItem-3SmSlK.bd-guild {
     margin-left: 0 !important;
   }
-  // notification number indicator & DM in call icon (compact mode)
+  // notification number indicator / in call icon for DM  (compact mode)
   .numberBadge-37OJ3S,
   .participating-2Z81oO {
     position: absolute;
     left: 20px;
     top: 14px;
   }
-  // notification number indicator & servers in call icon (compact mode)
-  div[aria-label="Servers"] .participating-2Z81oO {
-    left: 30px;
+  // notification number indicator / in call icon for servers (compact mode)
+  div[aria-label="Servers"] .participating-2Z81oO,
+  div[aria-label="Servers"] .numberBadge-37OJ3S {
+    left: 28px;
   }
 
   .childWrapper-1j_1ub {
