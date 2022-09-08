@@ -31,6 +31,10 @@
   background-color: transparent !important;
   background: transparent !important;
 }
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .muted-k5Fraa,
+.styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .muted-2GjYr6 .name-z5133D {
+  opacity: 1 !important;
+}
 .styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .childWrapper-1j_1ub {
   color: rgba(var(--sgac-text-color), 0.65);
 }
@@ -55,7 +59,7 @@
 }
 .styledGuildsAsChannels-DNHtg_ div[aria-label=Servers] .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub {
   background-color: rgb(var(--sgac-accent)) !important;
-  color: rgb(var(--sgac-text-color)) !important;
+  color: rgb(var(--sgac-text-color-highlight)) !important;
 }
 .styledGuildsAsChannels-DNHtg_ .betterFolders-customIcon {
   background-size: 36px;
@@ -103,7 +107,7 @@
   background-color: rgb(var(--sgac-accent)) !important;
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-2JjMmN .circleIconButton-1VxDrg.selected-2r1Hvo .childWrapper-1j_1ub * {
-  color: rgb(var(--sgac-text-color)) !important;
+  color: rgb(var(--sgac-text-color-highlight)) !important;
 }
 .styledGuildsAsChannels-DNHtg_ .guilds-2JjMmN {
   overflow: hidden;
