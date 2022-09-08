@@ -1,8 +1,8 @@
-name: Compile Styles
+name: Compile Compact Styles
 on:
   push:
     branches:
-      - main
+      - "compact"
 jobs:
   build-doc:
     runs-on: ubuntu-latest
