@@ -48,6 +48,12 @@
       background: transparent !important;
     }
 
+    // Disable Muted Server Fade
+    .muted-k5Fraa,
+    .muted-2GjYr6 .name-z5133D {
+      opacity: 1 !important;
+    }
+
     // All Servers
     .childWrapper-1j_1ub {
       color: rgba(var(--sgac-text-color), 0.65);
@@ -84,7 +90,7 @@
     .wrapper-3kah-n.selected-1Drb7Z {
       .childWrapper-1j_1ub {
         background-color: rgb(var(--sgac-accent)) !important;
-        color: rgb(var(--sgac-text-color)) !important;
+        color: rgb(var(--sgac-text-color-highlight)) !important;
       }
     }
   }
@@ -144,7 +150,7 @@
       background-color: rgb(var(--sgac-accent)) !important;
 
       .childWrapper-1j_1ub * {
-        color: rgb(var(--sgac-text-color)) !important;
+        color: rgb(var(--sgac-text-color-highlight)) !important;
       }
     }
   }

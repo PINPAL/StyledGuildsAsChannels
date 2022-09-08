@@ -14,7 +14,8 @@
 /* customisable variables */
 :root {
   --sgac-accent: 88, 101, 242;
-  --sgac-text-color: 249, 249, 249;
+  --sgac-text-color: 124, 128, 130;
+  --sgac-text-color-highlight: 255, 255, 255;
   --sgac-background-light: 57, 59, 64;
   --sgac-background-dark: 41, 43, 47;
   --sgac-background-color: #16171a;
